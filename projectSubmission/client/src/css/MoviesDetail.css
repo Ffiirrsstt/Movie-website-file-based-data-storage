@@ -1,0 +1,40 @@
+.box-movies-detail {
+  position: relative;
+  top: 8vh;
+  height: 90vh;
+  width: 80vw;
+}
+
+.bg-briefly {
+  background-color: rgba(59, 57, 57, 0.6);
+}
+
+.bg-wg {
+  background-color: rgb(224, 228, 230);
+}
+
+.h-25px {
+  height: 25px;
+}
+
+.key-detail {
+  height: 25px;
+  width: auto;
+  padding: 0px 10px;
+}
+
+.fs-7 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .fs-7 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .fs-7 {
+    font-size: 10px;
+  }
+}

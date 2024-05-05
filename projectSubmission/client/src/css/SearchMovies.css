@@ -1,0 +1,8 @@
+.movies-search {
+  height: 40vh;
+  width: 13vw;
+}
+
+.result-search {
+  border: 1px solid var(--comment-color);
+}

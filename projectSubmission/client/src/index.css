@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* --main-color: #ff0000;
+  --comment-color: #800000; */
+  --main-color: #bd41ff;
+  --comment-color: #410561;
+  --pale-color: rgba(255, 255, 255, 0.2);
+  --bg-color: #141414;
+  --txt-shadow: 0px 0px 5px rgba(3, 3, 3, 0.5);
+  --faded-hover-color: rgb(220, 220, 220);
+  --faded-color: rgba(220, 220, 220, 0.7);
+  --border-color: 1px solid rgba(220, 220, 220, 0.2);
+  --shadow-box: 2px 5px 10px rgba(255, 255, 255, 0.1);
+  --shadow-box-comment: 2px 2px 5px rgba(255, 255, 255, 0.2);
+  --trans: ease-in 0.2s;
+}
+
+.btn-danger {
+  background-color: var(--comment-color) !important;
+  border: 0px;
+}
+
+.btn-danger:hover {
+  filter: brightness(1.1);
+}
+
+.bg-dark {
+  background-color: var(--bg-color) !important;
+}
+
+.btn-pale {
+  background-color: var(--pale-color);
+  transform: var(--trans);
+}
+
+.btn-pale:hover {
+  opacity: 0.8;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-red {
+  color: var(--main-color);
+}
+
+.bg-red {
+  background-color: var(--main-color);
+}
+
+.bg-red-comment {
+  background-color: var(--comment-color);
+}
+
+.pt-1vw {
+  padding-top: 1vw;
+}
+
+.vw-10 {
+  width: 10vw;
+}
+
+.vw-30 {
+  width: 6vw;
+}
+
+.vw-40 {
+  width: 40vw;
+}
+.vw-70 {
+  width: 70vw;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.vh-5 {
+  height: 5vh !important;
+}
+
+.vh-15 {
+  height: 15vh;
+}
+
+.vh-12 {
+  height: 12vh;
+}
+
+.h-10 {
+  height: 10%;
+}
+.h-15 {
+  height: 15%;
+}
+.h-20 {
+  height: 20%;
+}
+.h-80 {
+  height: 80%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.h-20 {
+  height: 35%;
+}
+
+.h-60 {
+  height: 40%;
+}
+
+.mr-2 {
+  margin-right: 2vw;
+}
+
+.mb-5p {
+  margin-bottom: 5% !important;
+}
+
+.mt-5 {
+  margin-top: 5vh !important;
+}
+
+.mb-5 {
+  margin-bottom: 5vh !important;
+}
+
+.mb-15p {
+  margin-bottom: 15% !important;
+}
+
+.mb-1 {
+  margin-bottom: 1vh !important;
+}
+
+.mt-1 {
+  margin-top: 1vh !important;
+}
+
+.ml-1 {
+  margin-left: 1vw;
+}
+.mr-1 {
+  margin-right: 1vw;
+}
+
+.pt-2 {
+  padding-top: 2vh;
+}
+
+.pb-2 {
+  padding-bottom: 2vh;
+}
+
+.pt-5 {
+  padding-top: 5vh;
+}
+
+.pb-5 {
+  padding-bottom: 5vh;
+}
+
+.pr-05 {
+  padding-right: 0.5vw;
+}
+
+.pl-1 {
+  padding-left: 1vw;
+}
+
+.pr-1 {
+  padding-right: 1vw;
+}
+
+.pl-2 {
+  padding-left: 2vw;
+}
+
+.pr-2 {
+  padding-right: 2vw;
+}
+
+.focus-outline-none {
+  outline: none;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.border-bottom-1 {
+  border-bottom: var(--border-color);
+}
+
+.color-faded:hover {
+  background-color: var(--faded-hover-color);
+}
+
+.color-faded {
+  background-color: var(--faded-color);
+  transition: var(--trans);
+}
+
+.icon-faded:hover {
+  color: var(--faded-hover-color);
+}
+
+.icon-faded {
+  color: var(--faded-color);
+  transition: var(--trans);
+}
+
+.text-shadow {
+  text-shadow: var(--txt-shadow);
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.icon-head {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
