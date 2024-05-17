@@ -1,7 +1,7 @@
 # movie-website
 #### Note: Account data and comment data will be stored in JSON files, while movie details data will be stored in a CSV file.
 <hr>
-The movie website developed using React, Python, FastAPI, PyMongo, MongoDB, and incorporating AI for sentiment analysis of reviews and a recommendation system for movies.
+A movie website developed with React, Python, and FastAPI, storing data in JSON file format, and integrating AI for sentiment analysis of reviews and a movie recommendation system.
 
 <br><hr><br>
 
